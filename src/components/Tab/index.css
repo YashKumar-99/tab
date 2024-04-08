@@ -1,0 +1,120 @@
+.TabHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TabHeading h2 {
+
+    color: #6f518b;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+.TabHeading.active {
+    border-bottom: 1px solid #6f518b;
+}
+
+.TabBox {
+    max-width: 90%;
+    margin: 3% auto;
+    border: 3px solid #9c9e9d;
+    border-radius: 15px;
+    padding: 3%;
+    background: #e8dee4;
+}
+
+.displaySection {
+    background: #fff;
+    padding: 1rem;
+}
+
+.displaySection h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.TabBox hr {
+    margin: 20px 0px;
+}
+
+.DisplayMobile,
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {}
+
+
+@media screen and (max-width: 768px) {
+
+    .TabHeading h2 {
+        font-size: 16px;
+    }
+
+    .displaySection h1 {
+        font-size: 20px;
+    }
+
+    .displaySection p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .TabHeading h2 {
+        font-size: 14px;
+    }
+
+    .TabBox hr {
+        margin: 14px 0px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .icon {
+        display: block;
+    }
+
+    .TabHeader {
+
+        flex-direction: column;
+
+    }
+
+    .TabHeading h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .DisplayMobile {
+        display: block;
+    }
+
+    .DispalyDesktop {
+        display: none;
+    }
+
+    .TabHeading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #000000;
+        margin: 10px;
+    }
+
+
+    .hr {
+        display: none
+    }
+
+
+}
+
